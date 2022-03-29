@@ -1,0 +1,25 @@
+.dbg{
+    background-color: rgba(252, 192, 64, 0.455);
+    border: 1px solid black;
+}
+
+.dbgg{
+    background-color: rgba(64, 183, 252, 0.455);
+    border: 1px solid black;
+}
+
+.min-h-50{
+    height: 50px;
+}
+
+.min-h-100{
+    height: 100px;
+}
+
+.min-h-250{
+    height: 250px;
+}
+
+.min-h-400{
+    height: 400px;
+}
