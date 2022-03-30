@@ -1,27 +1,6 @@
 /* 
     JUMBOTRON
 */
-
-.btn_buy_now{
-    width: fit-content;
-    background-color: #cd3d0f;
-    border: 2px solid #cd3d0f;
-    border-radius: 30px;
-    padding: 5px 4px;
-}
-
-.btn_buy_now:hover{
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.btn_buy_now a{
-    padding: 6px;
-    vertical-align: middle;
-    background-color: #cd3d0f;
-    border-radius: 30px;
-}
-/* ------ */
-
 .jumbotron-top{
     height: 800px;
     margin-top: 100px;
@@ -32,7 +11,7 @@
 }
 
 .logo-game-jumbo img{
-    width: 50%;
+    width: 70%;
 }
 /* ------ */
 
@@ -48,7 +27,32 @@
     height: 100%;
     width: 100%;
 }
-/* --/JUMBOTRON--- */
+
+.jumbotron-top .btn_buy_info,
+    .jumbotron-mid .btn_buy_info{
+        width: fit-content;
+        background-color: #cd3d0f;
+        border: 2px solid #cd3d0f;
+        border-radius: 30px;
+        padding: 8px 4px;
+}
+
+.jumbotron-top .btn_buy_info a,
+    .jumbotron-mid .btn_buy_info a{
+    padding: 6px;
+    text-align: center;
+    background-color: #cd3d0f;
+    border-radius: 30px;
+}
+
+.btn_buy_info:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* --/JUMBOTRON------------------------------------------------- */
+
+
+
 
 /* 
     HEADER
@@ -61,7 +65,6 @@ header {
 header .menu{
     height: 60px;
 }
-
 
 header .sony-logo{
     position: relative;
@@ -76,4 +79,115 @@ header .sony-logo img{
     right: -35px;
     top: 5px
 }
-/* --/HEADER--- */
+/* --/HEADER----------------------------------------------------- */
+
+
+
+
+/* 
+    CARDS UNDER JUMBOTRON-TOP
+*/
+.img-link-to-games .thumbnail-game{
+    display: flex;
+    justify-content: center;
+}
+
+.img-link-to-games .thumbnail-game img{
+    margin: 10px 0;
+    border-radius: 20px;
+    width: 97.5%;
+    padding: 3px;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.img-link-to-games .thumbnail-game img:hover{
+    border-color: #006bcc;
+}
+/* ---/CARDS UNDER JUMBOTRON-TOP--------------------------------- */
+
+
+/* 
+    PLAYSTATION 5
+*/
+#playstation5{
+    min-height: 600px;
+}
+
+#playstation5 .title p:first-child{
+    color: #137cd2;
+    margin-bottom: 0px;
+}
+#playstation5 .title p:last-child,
+    #playstation5 .text-info-PS5 p:last-child,
+        .text-info-PS5 p{
+    color: #727272;
+}
+
+.text-info-PS5 .btn_buy_info{
+    width: fit-content;
+    color: white;
+    background-color: #137cd2;
+    border: 2px solid #137cd2;
+    border-radius: 30px;
+    padding: 8px 4px;
+}
+
+.text-info-PS5 .btn_buy_info a{
+    padding: 6px;
+    text-align: center;
+    background-color: #137cd2;
+    border-radius: 30px;
+}
+
+#playstation5 .btn_buy_info:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ps5-full-img img{
+    width: 100%;
+}
+
+.ps5-products {
+    text-align: center;
+}
+
+.ps5-products>.img-product{
+    opacity: .65;
+    cursor: pointer;
+}
+
+.ps5-products:active .img-product{
+    opacity: 1;
+    border-bottom: 3px solid #137cd2;
+}
+
+.ps5-products img{
+    width: 75%;
+}
+/* ---/PLAYSTATION 5--------------------------------- */
+
+
+
+
+/* 
+    NEW GAMESOUT
+*/
+.new-games{
+    color: white;
+    background-color: #1f1f1f;
+}
+
+.new-games-card{
+    text-align: center;
+}
+
+.new-games-card p{
+    text-align: left;
+}
+
+.new-games-card img{
+    width: 90%;
+    border-radius: 15PX;
+}
+
+/* ---/NEW GAMES OUT--------------------------------- */
