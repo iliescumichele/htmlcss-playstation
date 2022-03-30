@@ -191,3 +191,125 @@ header .sony-logo img{
 }
 
 /* ---/NEW GAMES OUT--------------------------------- */
+
+
+/* 
+    PLAYSTATION 4
+*/
+#playstation4 p{
+    color: #727272;
+}
+
+.ps4-products{
+    text-align: center;
+}
+
+.ps4-products h2,
+    .ps4-products p,
+        .btn_buy_info{
+            text-align: left;
+}
+
+.ps4-product img{
+    width: 100%;
+    padding: auto 30px;
+}
+
+.ps4-product .btn_buy_info{
+    width: fit-content;
+    color: white;
+    background-color: #137cd2;
+    border: 2px solid #137cd2;
+    border-radius: 30px;
+    padding: 8px 4px;
+}
+
+.ps4-product .btn_buy_info a{
+    padding: 6px;
+    text-align: center;
+    background-color: #137cd2;
+    border-radius: 30px;
+}
+
+.ps4-product .btn_buy_info:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+/* ---/PLAYSTATION 4--------------------------------- */
+
+
+/* 
+    PLAYSTATION PLUS
+*/
+#playstation-plus{
+    background-color: #bebcbb;
+}
+
+#playstation-plus .logo-ps-plus-sx img{
+    width: 75%;
+}
+
+#playstation-plus .img-ps-plus-dx img{
+    width: 100%;
+}
+
+#playstation-plus .btn_buy_info{
+    width: fit-content;
+    color: #137cd2;
+    background-color: #ffffffa1;
+    border: 2px solid #ffffffa1;
+    border-radius: 30px;
+    padding: 8px 4px;
+}
+
+#playstation-plus .btn_buy_info a{
+    padding: 6px;
+    text-align: center;
+    background-color: 137cd2;
+    border-radius: 30px;
+}
+
+#playstation-plus .btn_buy_info:hover{
+    background-color: #ffffffd2;
+    border: 2px solid #ffffffd2;
+
+}
+/* ---/PLAYSTATION PLUS-------------------------------- */
+
+
+
+/* 
+    PLAYSTATION NOW
+*/
+#playstation-now{
+    background-color: #161c3b;
+    color: white;
+}
+
+#playstation-now .logo-ps-now-sx img{
+    width: 75%;
+}
+
+#playstation-now .img-ps-now-dx img{
+    width: 100%;
+}
+
+#playstation-now .btn_buy_info{
+    width: fit-content;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 8px 4px;
+}
+
+#playstation-now .btn_buy_info a{
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#playstation-now .btn_buy_info:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+/* ---/PLAYSTATION NOW-------------------------------- */
