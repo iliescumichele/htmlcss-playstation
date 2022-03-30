@@ -109,9 +109,6 @@ header .sony-logo img{
 /* 
     PLAYSTATION 5
 */
-#playstation5{
-    min-height: 600px;
-}
 
 #playstation5 .title p:first-child{
     color: #137cd2;
@@ -313,3 +310,24 @@ header .sony-logo img{
     background-color: rgba(0, 0, 0, 0);
 }
 /* ---/PLAYSTATION NOW-------------------------------- */
+
+
+/* 
+    PS-STORE-SALES
+*/
+#sales-ps-store .img-ps-sale img{
+    width: 100%;
+    margin: 15px auto;
+}
+/* ---/PS-STORE-SALES--------------------------------- */
+
+
+
+/* 
+    SOCIAL MEDIA
+*/
+#social-media .img-social-media img{
+    width: 100%;
+    margin: 15px auto;
+}
+/* ---/SOCIAL MEDIA----------------------------------- */
