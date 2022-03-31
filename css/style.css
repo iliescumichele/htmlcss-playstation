@@ -64,6 +64,7 @@ header {
 
 header .menu{
     height: 60px;
+    background-color: white;
 }
 
 header .sony-logo{
@@ -76,8 +77,21 @@ header .sony-logo{
 header .sony-logo img{
     position: absolute;
     vertical-align: middle;
-    right: -35px;
+    right: 1px;
     top: 5px
+}
+
+.navbar img:first-of-type{
+    height: 50%;
+}
+
+.nav-item.dropdown a {
+    color: black;
+}
+
+/* ul .dropdown-menu.show{ */
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    width: 100vw !important; 
 }
 /* --/HEADER----------------------------------------------------- */
 
@@ -93,16 +107,23 @@ header .sony-logo img{
 }
 
 .img-link-to-games .thumbnail-game img{
-    margin: 10px 0;
+    margin: 15px 0;
     border-radius: 20px;
-    width: 97.5%;
+    width: 100%;
     padding: 3px;
     border: 3px solid rgba(0, 0, 0, 0);
+    transition: margin-top .5s;
 }
 
 .img-link-to-games .thumbnail-game img:hover{
     border-color: #006bcc;
 }
+
+.img-link-to-games .thumbnail-game img:hover{
+    margin-top: 5px;
+}
+
+
 /* ---/CARDS UNDER JUMBOTRON-TOP--------------------------------- */
 
 
