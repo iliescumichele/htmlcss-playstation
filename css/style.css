@@ -16,7 +16,7 @@
 /* ------ */
 
 .jumbotron-mid{
-    height: 800px;
+    /* height: 800px; */
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
@@ -24,8 +24,7 @@
 }
 
 .jumbotron-mid .logo-game-jumbo img{
-    height: 100%;
-    width: 100%;
+    width: 85%;
 }
 
 .jumbotron-top .btn_buy_info,
@@ -60,6 +59,7 @@
 header {
     position: fixed;
     top: 0;
+    width: 100%;
 }
 
 header .menu{
@@ -148,12 +148,12 @@ header .sony-logo img{
     text-align: center;
 }
 
-.ps5-products>.img-product{
+.img-products{
     opacity: .65;
     cursor: pointer;
 }
 
-.ps5-products:active .img-product{
+.img-products.active:active{
     opacity: 1;
     border-bottom: 3px solid #137cd2;
 }
@@ -331,3 +331,40 @@ header .sony-logo img{
     margin: 15px auto;
 }
 /* ---/SOCIAL MEDIA----------------------------------- */
+
+
+/* 
+    FOOTER
+*/
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .top-foot img{
+    filter: grayscale(1) brightness(9000%);
+    height: 150px;
+}
+
+footer .bottom-foot a{
+    text-decoration: underline;
+}
+
+footer .bottom-foot img{
+    height: 50%;
+}
+
+.top-logo-footer img{
+    height: 10px;
+}
+
+
+/* ---/FOOTER----------------------------------------- */
